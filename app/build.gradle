@@ -1,13 +1,13 @@
 plugins { id 'com.android.application' }
 android {
-    namespace 'com.anshify.htmltoapk'
+    namespace 'com.example.htmltoapk'
     compileSdk 34
     defaultConfig {
-        applicationId 'com.anshify.htmltoapk'
+        applicationId 'com.example.htmltoapk'
         minSdk 21
         targetSdk 34
         versionCode 1
-        versionName '1.0.0'
+        versionName '1.0'
     }
     androidResources {
         noCompress 'html'
